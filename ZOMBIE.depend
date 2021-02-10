@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1612955304 source:c:\users\render\desktop\game\zombie\main.cpp
+	"Zombie.h"
+	"Bomber.h"
+
+1612955189 c:\users\render\desktop\game\zombie\include\zombie.h
+	<string>
+	<iostream>
+	<stdlib.h>
+
+1612954023 source:c:\users\render\desktop\game\zombie\src\zombie.cpp
+	"Zombie.h"
+
+1612955176 source:c:\users\render\desktop\game\zombie\src\bomber.cpp
+	"Bomber.h"
+
+1612953195 c:\users\render\desktop\game\zombie\include\bomber.h
+	<Zombie.h>
+
+1612955168 source:c:\users\render\desktop\game\zombie\src\rapace.cpp
+	"Rapace.h"
+
+1612953195 c:\users\render\desktop\game\zombie\include\rapace.h
+	<Zombie.h>
+
+1612955140 source:c:\users\render\desktop\game\zombie\src\tank.cpp
+	"Tank.h"
+
+1612954808 c:\users\render\desktop\game\zombie\include\tank.h
+	<Zombie.h>
+
+1612955287 source:c:\users\render\desktop\game\zombie\src\mage.cpp
+	"Mage.h"
+
+1612954984 c:\users\render\desktop\game\zombie\include\mage.h
+	<Zombie.h>
+
