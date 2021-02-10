@@ -14,5 +14,6 @@ Mage::~Mage()
 
 void Mage::Spell(Zombie*cible){
 cible->setStrenght(cible->getStrenght()/2);
-cible->setArmor(0);
 }
+//bool getSpell(){return spl;}
+//void setSpell(bool s){spl=s;}

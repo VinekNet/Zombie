@@ -5,14 +5,17 @@
 
 
 class Mage : public Zombie
-{
+{    private:
+        bool spl=true;
     public:
         Mage();
         virtual ~Mage();
-
+        void Spell(Zombie*cible);
+        bool getSpell();
+        void setSpell(bool s);
     protected:
 
-    private:
+
 };
 
 #endif // MAGE_H
