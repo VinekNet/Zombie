@@ -1,7 +1,10 @@
 # depslib dependency file v1.0
-1612955304 source:c:\users\render\desktop\game\zombie\main.cpp
+1612955863 source:c:\users\render\desktop\game\zombie\main.cpp
 	"Zombie.h"
 	"Bomber.h"
+	"Rapace.h"
+	"Tank.h"
+	"Mage.h"
 
 1612955189 c:\users\render\desktop\game\zombie\include\zombie.h
 	<string>

@@ -9,7 +9,7 @@ class Rapace : public Zombie
     public:
         Rapace();
         virtual ~Rapace();
-        void charogne(Zombie* cible);
+        void swift(Zombie* cible);
 };
 
 #endif // RAPACE_H

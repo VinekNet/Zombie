@@ -12,6 +12,5 @@ Bomber::~Bomber()
 
 void Bomber::explosion(Zombie* cible){
         cible->setPv(cible->getPv() - (getStrenght()*3));
-        setPv(0);
         Zombie::~Zombie;
     }

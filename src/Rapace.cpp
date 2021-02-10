@@ -12,7 +12,7 @@ Rapace::~Rapace()
     cout<<"Zombie Rapace " <<getNom() << " detruit"<<endl;
     //dtor
 }
-void Rapace::charogne(Zombie* cible){
+void Rapace::swift(Zombie* cible){
         cible->setPv(cible->getPv() - (getStrenght()/2));
         setPv(getPv()+(getStrenght()/2));
     }

@@ -18,10 +18,10 @@ void Tank::setArmor(int a){
 armure=a;
 }
 void Tank::setPv(int p){
-    if (armure>0){
+    if (armure>=p){
         armure-=p;
     }
-    else setPv(getPv()-p);
+    else setPv(p);
 }
 void Tank::charge(Zombie* cible){
 cible->setPv(cible->getPv() - getArmor());
